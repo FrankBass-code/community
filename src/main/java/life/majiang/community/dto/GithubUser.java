@@ -30,4 +30,12 @@ public class GithubUser {
 
     private String bio;
 
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
+    }
 }
